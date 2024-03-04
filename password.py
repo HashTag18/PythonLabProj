@@ -12,7 +12,7 @@ def complexity():
         
         if(choice == 1):
                 hard(length)
-        if(choice == 2):
+        elif(choice == 2):
                 veryHard(length)
         else:
             print("Invalid choice.")
